@@ -112,7 +112,7 @@
   .hero-watermark .wm-bold{
     font-family:'Space Grotesk', sans-serif; font-weight:700; letter-spacing:-0.03em;
     font-size:clamp(130px, 21vw, 360px);
-    color:transparent; -webkit-text-stroke:1.5px rgba(201,217,195,0.18);
+    color:transparent; -webkit-text-stroke:1.5px rgba(201,217,195,0.10);
     transition:-webkit-text-stroke-color .5s ease, transform .5s ease;
   }
   .hero:hover .hero-watermark .wm-bold{
@@ -122,7 +122,7 @@
   .hero-watermark .wm-script{
     font-family:'Instrument Serif', serif; font-style:italic; font-weight:400;
     font-size:clamp(146px, 23vw, 400px);
-    color:rgba(229,106,46,0.28); -webkit-text-stroke:0;
+    color:rgba(229,106,46,0.16); -webkit-text-stroke:0;
     margin-left:-0.06em; transform:rotate(-3deg) translateY(1%);
     transition:color .5s ease, transform .5s ease;
   }
@@ -473,12 +473,12 @@
 <style>
   .wsp-float{
     position:fixed; right:24px; bottom:24px; z-index:500;
-    width:58px; height:58px; border-radius:50%;
+    width:74px; height:74px; border-radius:50%;
     background:#25D366; display:flex; align-items:center; justify-content:center;
     box-shadow:0 6px 20px rgba(0,0,0,0.25); transition:transform .2s ease;
   }
   .wsp-float:hover{ transform:scale(1.08); }
-  @media(max-width:480px){ .wsp-float{ width:50px; height:50px; right:16px; bottom:16px; } .wsp-float svg{ width:24px; height:24px; } }
+  @media(max-width:480px){ .wsp-float{ width:62px; height:62px; right:16px; bottom:16px; } .wsp-float svg{ width:32px; height:32px; } }
 </style>
 </head>
 <body>
@@ -827,7 +827,7 @@
 
 
 <a href="https://wa.me/5493512255860" target="_blank" rel="noopener" class="wsp-float" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" style="position: fixed;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.874.508 3.687 1.469 5.281L2 22l4.834-1.446a9.96 9.96 0 0 0 5.17 1.44c5.518 0 10.004-4.486 10.004-10.004S17.522 2 12.004 2zm0 18.164a8.14 8.14 0 0 1-4.156-1.14l-.298-.177-2.868.858.865-2.798-.194-.288a8.126 8.126 0 0 1-1.253-4.323c0-4.494 3.658-8.152 8.152-8.152s8.152 3.658 8.152 8.152-3.658 8.152-8.152 8.152z"/></svg>
+  <svg viewBox="0 0 24 24" width="36" height="36" fill="#fff" style="position: fixed;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.874.508 3.687 1.469 5.281L2 22l4.834-1.446a9.96 9.96 0 0 0 5.17 1.44c5.518 0 10.004-4.486 10.004-10.004S17.522 2 12.004 2zm0 18.164a8.14 8.14 0 0 1-4.156-1.14l-.298-.177-2.868.858.865-2.798-.194-.288a8.126 8.126 0 0 1-1.253-4.323c0-4.494 3.658-8.152 8.152-8.152s8.152 3.658 8.152 8.152-3.658 8.152-8.152 8.152z"/></svg>
 </a>
 </body>
 </html>
